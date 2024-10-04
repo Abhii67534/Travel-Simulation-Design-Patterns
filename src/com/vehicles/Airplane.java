@@ -1,5 +1,7 @@
 package com.vehicles;
 
+import java.text.DecimalFormat;
+
 public class Airplane {
     private static final double CAPACITY = 100000.0; // 100000L of fuel
     private static final double FUEL_CONSUMPTION = 5400.0; // 5400L/hour
@@ -37,11 +39,13 @@ public class Airplane {
     }
 
     public void airplaneTravel(double distance) {
+        DecimalFormat df = new DecimalFormat("#.00");
         double time = distance / SPEED;
         double maxTime = fuel / FUEL_CONSUMPTION;
         if (maxTime < time) {
             double maxDistance = maxTime * SPEED;
-            System.out.println("Not enough fuel to travel " + distance + "km. Travelling " + maxDistance + "km instead.");
+            String MaxDistPrecised = df.format(maxDistance);
+            System.out.println("Not enough fuel to travel " + distance + "km. Travelling " + MaxDistPrecised + "km instead.");
             totalDistance += maxDistance;
             fuel = 0.0;
         } else {
