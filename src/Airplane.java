@@ -1,4 +1,3 @@
-package com.vehicles;
 
 import java.text.DecimalFormat;
 

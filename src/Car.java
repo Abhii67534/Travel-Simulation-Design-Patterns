@@ -1,6 +1,4 @@
-package com.vehicles;
 import java.text.DecimalFormat;
-
 
 public class Car {
     private static final double CAPACITY = 50.0; // 50L of fuel

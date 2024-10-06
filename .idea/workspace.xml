@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42cbe150-d2f9-4ada-b2f0-24eff9dec99f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vehicles/VehicleUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AirplaneAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoatAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/simulation/TravelSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simulation/TravelSimulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vehicles/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vehicles/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vehicles/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vehicles/Boat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vehicles/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simulation/TravelSimulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vehicles/Airplane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vehicles/Boat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vehicles/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vehicles/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vehicles/VehicleUtility.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "C:/Users/abhis/IdeaProjects/Lab02/src/Main.java",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/abhis/IdeaProjects/Lab02/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TravelSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.simulation.TravelSimulation" />
+      <option name="MAIN_CLASS_NAME" value="TravelSimulation" />
       <module name="Lab02" />
       <extension name="coverage">
         <pattern>
@@ -78,5 +82,10 @@
       <updated>1728007158006</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lab02$TravelSimulation.ic" NAME="TravelSimulation Coverage Results" MODIFIED="1728248477947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.simulation.*</FILTER>
+    </SUITE>
   </component>
 </project>
